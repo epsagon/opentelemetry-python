@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1657718489255,
+  "lastUpdate": 1657718492318,
   "repoUrl": "https://github.com/epsagon/opentelemetry-python",
   "entries": {
     "OpenTelemetry Python Benchmarks - Python 3.8 - core": [
@@ -82430,6 +82430,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 3.098894578365182e-7",
             "extra": "mean: 3.6140915355566436 usec\nrounds: 76331"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "45116635+ronnathaniel@users.noreply.github.com",
+            "name": "Ron Nathaniel",
+            "username": "ronnathaniel"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "258ce751dac9e58b3afe64e30807af484e35bdbf",
+          "message": "Merge pull request #1 from open-telemetry/main\n\nMerge Upstream Main into Main",
+          "timestamp": "2022-07-13T09:19:42-04:00",
+          "tree_id": "b33f110a20f599aa99798b02bbfafa7e2e484350",
+          "url": "https://github.com/epsagon/opentelemetry-python/commit/258ce751dac9e58b3afe64e30807af484e35bdbf"
+        },
+        "date": 1657718459085,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "propagator/opentelemetry-propagator-b3/tests/performance/benchmarks/trace/propagation/test_benchmark_b3_format.py::test_extract_single_header",
+            "value": 131195.31787685188,
+            "unit": "iter/sec",
+            "range": "stddev: 3.7678053106245686e-7",
+            "extra": "mean: 7.6222232331390245 usec\nrounds: 17036"
+          },
+          {
+            "name": "propagator/opentelemetry-propagator-b3/tests/performance/benchmarks/trace/propagation/test_benchmark_b3_format.py::test_inject_empty_context",
+            "value": 249021.40403404657,
+            "unit": "iter/sec",
+            "range": "stddev: 2.9454445740830255e-7",
+            "extra": "mean: 4.01571906591322 usec\nrounds: 69931"
           }
         ]
       }

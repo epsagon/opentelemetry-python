@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1657718484948,
+  "lastUpdate": 1657718489255,
   "repoUrl": "https://github.com/epsagon/opentelemetry-python",
   "entries": {
     "OpenTelemetry Python Benchmarks - Python 3.8 - core": [
@@ -66306,6 +66306,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.0000043397209600355135",
             "extra": "mean: 68.67808688267743 usec\nrounds: 5893"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "45116635+ronnathaniel@users.noreply.github.com",
+            "name": "Ron Nathaniel",
+            "username": "ronnathaniel"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "258ce751dac9e58b3afe64e30807af484e35bdbf",
+          "message": "Merge pull request #1 from open-telemetry/main\n\nMerge Upstream Main into Main",
+          "timestamp": "2022-07-13T09:19:42-04:00",
+          "tree_id": "b33f110a20f599aa99798b02bbfafa7e2e484350",
+          "url": "https://github.com/epsagon/opentelemetry-python/commit/258ce751dac9e58b3afe64e30807af484e35bdbf"
+        },
+        "date": 1657718460353,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "opentelemetry-sdk/tests/performance/benchmarks/trace/test_benchmark_trace.py::test_simple_start_span",
+            "value": 21357.307976332737,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000001199568550414766",
+            "extra": "mean: 46.82238047548678 usec\nrounds: 4292"
+          },
+          {
+            "name": "opentelemetry-sdk/tests/performance/benchmarks/trace/test_benchmark_trace.py::test_simple_start_as_current_span",
+            "value": 14708.167241881996,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0000016240959766441542",
+            "extra": "mean: 67.98943631484326 usec\nrounds: 5056"
           }
         ]
       }

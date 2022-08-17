@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1660723118253,
+  "lastUpdate": 1660723122470,
   "repoUrl": "https://github.com/epsagon/opentelemetry-python",
   "entries": {
     "OpenTelemetry Python Benchmarks - Python 3.8 - core": [
@@ -22828,44 +22828,6 @@ window.BENCHMARK_DATA = {
             "username": "web-flow"
           },
           "distinct": true,
-          "id": "dfd298064b20ed83622201abde1a738e658509a2",
-          "message": "Revert \"updating changelogs and version to 1.4.0-0.23b0 (#1956)\" (#1962)\n\nThis reverts commit bb41b81093d4010dadb233f146e8ba04973ec5a3.",
-          "timestamp": "2021-07-16T09:30:48-07:00",
-          "tree_id": "6dd7fa163c5610437df7fdba14e61928831a7cfb",
-          "url": "https://github.com/open-telemetry/opentelemetry-python/commit/dfd298064b20ed83622201abde1a738e658509a2"
-        },
-        "date": 1626453362129,
-        "tool": "pytest",
-        "benches": [
-          {
-            "name": "exporter/opentelemetry-exporter-otlp-proto-grpc/tests/performance/benchmarks/test_benchmark_trace_exporter.py::test_simple_span_processor",
-            "value": 3079.7147198736257,
-            "unit": "iter/sec",
-            "range": "stddev: 0.000013556863411721167",
-            "extra": "mean: 324.70539999920334 usec\nrounds: 40"
-          },
-          {
-            "name": "exporter/opentelemetry-exporter-otlp-proto-grpc/tests/performance/benchmarks/test_benchmark_trace_exporter.py::test_batch_span_processor",
-            "value": 5783.386757946961,
-            "unit": "iter/sec",
-            "range": "stddev: 0.0007930415115027752",
-            "extra": "mean: 172.90906554466525 usec\nrounds: 6835"
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "email": "ocelotl@users.noreply.github.com",
-            "name": "Diego Hurtado",
-            "username": "ocelotl"
-          },
-          "committer": {
-            "email": "noreply@github.com",
-            "name": "GitHub",
-            "username": "web-flow"
-          },
-          "distinct": true,
           "id": "e78c9c460c1f1f062032a31f46245d7b1f9cdcd0",
           "message": "Add opentelemetry-instrumentation (#1959)",
           "timestamp": "2021-07-16T11:13:14-07:00",
@@ -26612,6 +26574,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.0008579668662458488",
             "extra": "mean: 184.15765688824442 usec\nrounds: 6511"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "galbashan1@gmail.com",
+            "name": "Gal Bashan",
+            "username": "galbash"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "96279787e0c7814f03d7c037fb4cc0e1200bd379",
+          "message": "Merge branch 'open-telemetry:main' into main",
+          "timestamp": "2022-08-17T10:54:14+03:00",
+          "tree_id": "0f7b88c5e9c4c0646d9523a651ac52248028e3e4",
+          "url": "https://github.com/epsagon/opentelemetry-python/commit/96279787e0c7814f03d7c037fb4cc0e1200bd379"
+        },
+        "date": 1660723086541,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "exporter/opentelemetry-exporter-otlp-proto-grpc/tests/performance/benchmarks/test_benchmark_trace_exporter.py::test_simple_span_processor",
+            "value": 2526.520319548695,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000058175027233842214",
+            "extra": "mean: 395.8012893316556 usec\nrounds: 1303"
+          },
+          {
+            "name": "exporter/opentelemetry-exporter-otlp-proto-grpc/tests/performance/benchmarks/test_benchmark_trace_exporter.py::test_batch_span_processor",
+            "value": 5929.174497365023,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0007557589105346006",
+            "extra": "mean: 168.6575425372299 usec\nrounds: 9192"
           }
         ]
       }

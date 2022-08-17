@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1660723122470,
+  "lastUpdate": 1660723127274,
   "repoUrl": "https://github.com/epsagon/opentelemetry-python",
   "entries": {
     "OpenTelemetry Python Benchmarks - Python 3.8 - core": [
@@ -26630,44 +26630,6 @@ window.BENCHMARK_DATA = {
             "username": "web-flow"
           },
           "distinct": true,
-          "id": "dfd298064b20ed83622201abde1a738e658509a2",
-          "message": "Revert \"updating changelogs and version to 1.4.0-0.23b0 (#1956)\" (#1962)\n\nThis reverts commit bb41b81093d4010dadb233f146e8ba04973ec5a3.",
-          "timestamp": "2021-07-16T09:30:48-07:00",
-          "tree_id": "6dd7fa163c5610437df7fdba14e61928831a7cfb",
-          "url": "https://github.com/open-telemetry/opentelemetry-python/commit/dfd298064b20ed83622201abde1a738e658509a2"
-        },
-        "date": 1626453351329,
-        "tool": "pytest",
-        "benches": [
-          {
-            "name": "exporter/opentelemetry-exporter-otlp-proto-grpc/tests/performance/benchmarks/test_benchmark_trace_exporter.py::test_simple_span_processor",
-            "value": 3107.080131134784,
-            "unit": "iter/sec",
-            "range": "stddev: 0.000012131623339194737",
-            "extra": "mean: 321.845577775548 usec\nrounds: 45"
-          },
-          {
-            "name": "exporter/opentelemetry-exporter-otlp-proto-grpc/tests/performance/benchmarks/test_benchmark_trace_exporter.py::test_batch_span_processor",
-            "value": 4622.054051489016,
-            "unit": "iter/sec",
-            "range": "stddev: 0.000882890896460312",
-            "extra": "mean: 216.35402547441984 usec\nrounds: 6006"
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "email": "ocelotl@users.noreply.github.com",
-            "name": "Diego Hurtado",
-            "username": "ocelotl"
-          },
-          "committer": {
-            "email": "noreply@github.com",
-            "name": "GitHub",
-            "username": "web-flow"
-          },
-          "distinct": true,
           "id": "e78c9c460c1f1f062032a31f46245d7b1f9cdcd0",
           "message": "Add opentelemetry-instrumentation (#1959)",
           "timestamp": "2021-07-16T11:13:14-07:00",
@@ -30414,6 +30376,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.0008788200933950959",
             "extra": "mean: 198.4770065217112 usec\nrounds: 6440"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "galbashan1@gmail.com",
+            "name": "Gal Bashan",
+            "username": "galbash"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "96279787e0c7814f03d7c037fb4cc0e1200bd379",
+          "message": "Merge branch 'open-telemetry:main' into main",
+          "timestamp": "2022-08-17T10:54:14+03:00",
+          "tree_id": "0f7b88c5e9c4c0646d9523a651ac52248028e3e4",
+          "url": "https://github.com/epsagon/opentelemetry-python/commit/96279787e0c7814f03d7c037fb4cc0e1200bd379"
+        },
+        "date": 1660723091201,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "exporter/opentelemetry-exporter-otlp-proto-grpc/tests/performance/benchmarks/test_benchmark_trace_exporter.py::test_simple_span_processor",
+            "value": 2357.8803431862248,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00006628224174979572",
+            "extra": "mean: 424.1097318147583 usec\nrounds: 1141"
+          },
+          {
+            "name": "exporter/opentelemetry-exporter-otlp-proto-grpc/tests/performance/benchmarks/test_benchmark_trace_exporter.py::test_batch_span_processor",
+            "value": 4228.109710674232,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0009408000668044575",
+            "extra": "mean: 236.5123112759853 usec\nrounds: 7148"
           }
         ]
       }

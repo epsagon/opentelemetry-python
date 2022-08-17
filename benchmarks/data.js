@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1660723113094,
+  "lastUpdate": 1660723118253,
   "repoUrl": "https://github.com/epsagon/opentelemetry-python",
   "entries": {
     "OpenTelemetry Python Benchmarks - Python 3.8 - core": [
@@ -85930,6 +85930,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.0006646928592741115",
             "extra": "mean: 129.7040197095869 usec\nrounds: 9843"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "galbashan1@gmail.com",
+            "name": "Gal Bashan",
+            "username": "galbash"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "96279787e0c7814f03d7c037fb4cc0e1200bd379",
+          "message": "Merge branch 'open-telemetry:main' into main",
+          "timestamp": "2022-08-17T10:54:14+03:00",
+          "tree_id": "0f7b88c5e9c4c0646d9523a651ac52248028e3e4",
+          "url": "https://github.com/epsagon/opentelemetry-python/commit/96279787e0c7814f03d7c037fb4cc0e1200bd379"
+        },
+        "date": 1660723079807,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "exporter/opentelemetry-exporter-otlp-proto-grpc/tests/performance/benchmarks/test_benchmark_trace_exporter.py::test_simple_span_processor",
+            "value": 2866.3417495120148,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00009762496159791622",
+            "extra": "mean: 348.8767521075415 usec\nrounds: 1424"
+          },
+          {
+            "name": "exporter/opentelemetry-exporter-otlp-proto-grpc/tests/performance/benchmarks/test_benchmark_trace_exporter.py::test_batch_span_processor",
+            "value": 6193.150684717013,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0007417646567588342",
+            "extra": "mean: 161.46870162027932 usec\nrounds: 10061"
           }
         ]
       }

@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1660808548260,
+  "lastUpdate": 1660808551491,
   "repoUrl": "https://github.com/epsagon/opentelemetry-python",
   "entries": {
     "OpenTelemetry Python Benchmarks - Python 3.8 - core": [
@@ -75470,6 +75470,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00000278827852228833",
             "extra": "mean: 56.516371092070216 usec\nrounds: 7133"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "galbashan1@gmail.com",
+            "name": "Gal Bashan",
+            "username": "galbash"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "cd2b6a9d6857f3f9815c3ded29ad153fec74c816",
+          "message": "Adding Codespell to the CI (#2878)",
+          "timestamp": "2022-08-18T02:56:28+05:30",
+          "tree_id": "732fde47be31627040f61f322a6b2d1c9dadc0ac",
+          "url": "https://github.com/epsagon/opentelemetry-python/commit/cd2b6a9d6857f3f9815c3ded29ad153fec74c816"
+        },
+        "date": 1660808517401,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "opentelemetry-sdk/tests/performance/benchmarks/trace/test_benchmark_trace.py::test_simple_start_span",
+            "value": 29949.28945094941,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0000031857857669536916",
+            "extra": "mean: 33.389773792055664 usec\nrounds: 6021"
+          },
+          {
+            "name": "opentelemetry-sdk/tests/performance/benchmarks/trace/test_benchmark_trace.py::test_simple_start_as_current_span",
+            "value": 20090.022406881475,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000003316473069674628",
+            "extra": "mean: 49.775952447791596 usec\nrounds: 7844"
           }
         ]
       }
